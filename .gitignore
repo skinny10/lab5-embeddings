@@ -1,0 +1,16 @@
+# Modelo FastText (pesa ~7 GB, no cabe en GitHub sin Git LFS)
+cc.es.300.bin
+cc.es.300.bin.gz
+*.bin
+
+# Entorno virtual
+venv/
+__pycache__/
+*.pyc
+
+# Checkpoints de Jupyter
+.ipynb_checkpoints/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
